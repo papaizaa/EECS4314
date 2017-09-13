@@ -6,6 +6,10 @@
 - Nisha Sharma
 - Varsha Ragavendran
 
+## Assignment 0
+
+- In progress
+
 ## Assignment 1
 
 - In progress
