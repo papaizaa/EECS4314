@@ -8,8 +8,16 @@
 
 ## Assignment 1
 
+- Coming soon
+
 ## Assignment 2
+
+- Coming soon
 
 ## Assignment 3
 
+- Coming soon
+
 ## Assignment 4
+
+- Coming soon
