@@ -5,6 +5,8 @@
 - Glib Sitiugin
 - Nisha Sharma
 - Varsha Ragavendran
+- Ayman Abualsunun
+- Davood Anbarnam
 
 ## Assignment 0
 
