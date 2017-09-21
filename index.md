@@ -1,23 +1,25 @@
 ## Assignment 0: Group Member List and Webpage Links
 
 Tutorials:
-- [Official MySQL Tutorial](https://dev.mysql.com/doc/refman/5.7/en/tutorial.html)
-- [MySQL Tutorial Website](http://www.mysqltutorial.org/)
+- [Official MySQL 8.0.X Tutorial](https://dev.mysql.com/doc/refman/8.0/en/tutorial.html)
 - [Tutorialspoint MySQL Tutorial](https://www.tutorialspoint.com/mysql/)
+- [w3schools MySQL Tutorial](https://www.w3schools.com/sql/)
 
 Documents:
-- [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
-- [MySQL 5.7 Release Notes](https://dev.mysql.com/doc/relnotes/mysql/5.7/en/)
+- [MySQL 8.0.X Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
+- [MySQL 8.0.X Release Notes](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/)
 
 Books:
-- [High Performance MySQL](https://www.amazon.com/gp/product/0596101716?ie=UTF8&tag=thgest-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596101716)
+- [MySQL Server Cookbook](http://shop.oreilly.com/product/0636920032274.do)
+- [High Performance MySQL Server](http://shop.oreilly.com/product/0636920022343.do)
 
 Discussion Groups:
 - [Official MySQL Forums](https://forums.mysql.com/)
-- [Subreddit for MySQL](https://www.reddit.com/r/mysql/)
+- [MySQL Subreddit](https://www.reddit.com/r/mysql/)
 
 Source Code Location:
-- [MySQL Github](https://github.com/mysql/mysql-server)
+- [MySQL Server Github 8.0.X](https://github.com/mysql/mysql-server/tree/8.0)
+- [MySQL Server 8.0.2 Source Code Release](https://github.com/mysql/mysql-server/releases/tag/mysql-8.0.2)
 
 ## Assignment 1: Conceptual Architecture
 
