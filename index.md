@@ -1,13 +1,3 @@
-# Team Members
-
-- Kevin Arindaeng
-- Anton Sitkovets
-- Glib Sitiugin
-- Nisha Sharma
-- Varsha Ragavendran
-- Ayman Abualsunun
-- Davood Anbarnam
-
 ## Assignment 0: Group Member List and Webpage Links
 
 Tutorials:
@@ -31,16 +21,16 @@ Source Code Location:
 
 ## Assignment 1: Conceptual Architecture
 
-- In progress
+- In progress (Oct 18, 2017)
 
 ## Assignment 2: Concrete Architecture
 
-- In progress
+- In progress (Nov 1, 2017)
 
 ## Assignment 3: Dependency Extraction
 
-- In progress
+- In progress (Nov 15, 2017)
 
 ## Assignment 4: Enhancement Proposal
 
-- In progress
+- In progress (Dec 4, 2017)
