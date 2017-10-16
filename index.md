@@ -23,7 +23,10 @@ Source Code Location:
 
 ## Assignment 1: Conceptual Architecture
 
-- In progress (Oct 18, 2017)
+- Slides: 
+  - [PDF](https://github.com/azkevin/EECS4314/blob/master/Slides/EECS4314%20A1%20Slides.pdf)
+  - [PPTX](https://github.com/azkevin/EECS4314/blob/master/Slides/EECS4314%20A1%20Slides.pptx)
+- Report: In progress (Oct 18, 2017)
 
 ## Assignment 2: Concrete Architecture
 
