@@ -23,7 +23,7 @@ Source Code Location:
 
 ## Assignment 1: Conceptual Architecture
 
-- Report: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Report%20(TabsVsSpaces).pdf)
+- Report: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Report%20(TabsVsSpaces).pdf) [[DOCX]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Report%20(TabsVsSpaces).docx)
 - Slides: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Slides%20(TabsVsSpaces).pdf) [[PPTX]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Slides.pptx)
 
 ## Assignment 2: Concrete Architecture
