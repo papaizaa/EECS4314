@@ -1,3 +1,23 @@
+## Assignment 1: Conceptual Architecture
+
+- Report: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Report%20(TabsVsSpaces).pdf) [[DOCX]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Report%20(TabsVsSpaces).docx)
+- Slides: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Slides%20(TabsVsSpaces).pdf) [[PPTX]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Slides.pptx)
+
+## Assignment 2: Concrete Architecture
+
+- Report: In progress (Nov 6, 2017)
+- Slides: In progress (Nov 1, 2017)
+
+## Assignment 3: Dependency Extraction
+
+- Report: In progress (Nov 20, 2017)
+- Slides: In progress (Nov 15, 2017)
+
+## Assignment 4: Enhancement Proposal
+
+- Report: In progress (Dec 4, 2017)
+- Slides: In progress (Nov 29, 2017)
+
 ## Assignment 0: Group Member List and Webpage Links
 
 Tutorials:
@@ -20,20 +40,3 @@ Discussion Groups:
 Source Code Location:
 - [MySQL Server Github 8.0.X](https://github.com/mysql/mysql-server/tree/8.0)
 - [MySQL Server 8.0.2 Source Code Release](https://github.com/mysql/mysql-server/releases/tag/mysql-8.0.2)
-
-## Assignment 1: Conceptual Architecture
-
-- Report: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Report%20(TabsVsSpaces).pdf) [[DOCX]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Report%20(TabsVsSpaces).docx)
-- Slides: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Slides%20(TabsVsSpaces).pdf) [[PPTX]](https://github.com/azkevin/EECS4314/blob/master/A1/EECS4314%20A1%20Slides.pptx)
-
-## Assignment 2: Concrete Architecture
-
-- In progress (Nov 1, 2017)
-
-## Assignment 3: Dependency Extraction
-
-- In progress (Nov 15, 2017)
-
-## Assignment 4: Enhancement Proposal
-
-- In progress (Dec 4, 2017)
