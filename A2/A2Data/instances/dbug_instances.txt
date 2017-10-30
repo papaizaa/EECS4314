@@ -1,0 +1,6 @@
+$INSTANCE mysql-server-mysql-8.0.2/dbug/dbug_analyze.c cFile
+$INSTANCE mysql-server-mysql-8.0.2/dbug/main.c cFile
+$INSTANCE mysql-server-mysql-8.0.2/dbug/tests.c cFile
+$INSTANCE mysql-server-mysql-8.0.2/dbug/factorial.c cFile
+$INSTANCE mysql-server-mysql-8.0.2/dbug/my_main.c cFile
+$INSTANCE mysql-server-mysql-8.0.2/dbug/dbug.c cFile

@@ -1,0 +1,9 @@
+$INSTANCE mysql-server-mysql-8.0.2/vio/vioshm.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/vio/viotest.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/vio/vio_priv.h cFile
+$INSTANCE mysql-server-mysql-8.0.2/vio/viosocket.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/vio/viotest-sslconnect.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/vio/viosslfactories.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/vio/vio.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/vio/viopipe.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/vio/viossl.cc cFile

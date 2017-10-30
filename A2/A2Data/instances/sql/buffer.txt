@@ -1,0 +1,4 @@
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/record_buffer.h 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/sql_join_buffer.cc 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/item_geofunc_buffer.cc 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/sql_join_buffer.h 

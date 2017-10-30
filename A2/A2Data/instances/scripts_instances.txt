@@ -1,0 +1,2 @@
+$INSTANCE mysql-server-mysql-8.0.2/scripts/comp_sql.c cFile
+$INSTANCE mysql-server-mysql-8.0.2/scripts/patch_file.cc cFile

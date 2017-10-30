@@ -1,0 +1,3 @@
+$INSTANCE mysql-server-mysql-8.0.2/testclients/mysql_client_fw.c cFile
+$INSTANCE mysql-server-mysql-8.0.2/testclients/mysql_client_test.c cFile
+$INSTANCE mysql-server-mysql-8.0.2/testclients/bug25714.c cFile

@@ -1,0 +1,11 @@
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/sp_cache.h 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/opt_costconstantcache.h 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/sp_cache.cc 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/keycaches.cc 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/sql_cache.cc 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/opt_costconstantcache.cc 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/table_cache.cc 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/keycaches.h 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/sql_cache.h 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/table_cache.h 
+contain CACHE.ss  mysql-server-mysql-8.0.2/sql/mf_iocache.cc 

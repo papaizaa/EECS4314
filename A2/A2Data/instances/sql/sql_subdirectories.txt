@@ -1,0 +1,6 @@
+$INSTANCE mysql-server-mysql-8.0.2/sql/auth/
+$INSTANCE mysql-server-mysql-8.0.2/sql/dd/
+$INSTANCE mysql-server-mysql-8.0.2/sql/examples/
+$INSTANCE mysql-server-mysql-8.0.2/sql/gis/
+$INSTANCE mysql-server-mysql-8.0.2/sql/histograms/
+$INSTANCE mysql-server-mysql-8.0.2/sql/partitioning/

@@ -1,0 +1,12 @@
+$INSTANCE mysql-server-mysql-8.0.2/storage/archive/
+$INSTANCE mysql-server-mysql-8.0.2/storage/blackhole/
+$INSTANCE mysql-server-mysql-8.0.2/storage/csv/
+$INSTANCE mysql-server-mysql-8.0.2/storage/example/
+$INSTANCE mysql-server-mysql-8.0.2/storage/federated/
+$INSTANCE mysql-server-mysql-8.0.2/storage/heap/
+$INSTANCE mysql-server-mysql-8.0.2/storage/innobase/
+$INSTANCE mysql-server-mysql-8.0.2/storage/myisam/
+$INSTANCE mysql-server-mysql-8.0.2/storage/myisammrg/
+$INSTANCE mysql-server-mysql-8.0.2/storage/ndb/
+$INSTANCE mysql-server-mysql-8.0.2/storage/perfschema/
+$INSTANCE mysql-server-mysql-8.0.2/storage/temptable/

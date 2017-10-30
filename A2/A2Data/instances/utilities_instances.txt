@@ -1,0 +1,10 @@
+$INSTANCE mysql-server-mysql-8.0.2/utilities/zlib_decompress.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/utilities/ibd2sdi.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/utilities/resolveip.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/utilities/resolve_stack_dump.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/utilities/perror.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/utilities/innochecksum.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/utilities/my_print_defaults.c cFile
+$INSTANCE mysql-server-mysql-8.0.2/utilities/lz4_decompress.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/utilities/comp_client_err.cc cFile
+$INSTANCE mysql-server-mysql-8.0.2/utilities/comp_err.cc cFile
