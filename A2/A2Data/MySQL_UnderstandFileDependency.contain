@@ -1,7 +1,6 @@
 contain mysql-server-mysql-8.0.2 CLIENT_INTERFACE.ss
 contain mysql-server-mysql-8.0.2 STORAGE_ENGINE.ss
 contain mysql-server-mysql-8.0.2 LIBRARY.ss
-contain mysql-server-mysql-8.0.2/sql PREPROCESSOR.ss
 
 contain STORAGE_ENGINE.ss mysql-server-mysql-8.0.2/storage/federated
 contain STORAGE_ENGINE.ss mysql-server-mysql-8.0.2/storage/temptable
@@ -26,8 +25,7 @@ contain mysql-server-mysql-8.0.2/sql PARSER.ss
 contain mysql-server-mysql-8.0.2/sql CACHE.ss
 contain mysql-server-mysql-8.0.2/sql EXECUTION.ss
 contain mysql-server-mysql-8.0.2/sql OTHER.ss
-contain mysql-server-mysql-8.0.2/sql PARSE_TREE.ss
-
+contain mysql-server-mysql-8.0.2/sql SECURITY.ss
 
 contain EXECUTION.ss mysql-server-mysql-8.0.2/sql/sql_executor.cc
 contain EXECUTION.ss mysql-server-mysql-8.0.2/sql/sql_executor.h
@@ -86,24 +84,26 @@ contain PARSER.ss mysql-server-mysql-8.0.2/sql/options_parser.h
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_file.cc 
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_file.h 
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_location.h 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_column_attrs.h 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_helpers.cc 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_helpers.h 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_hints.cc 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_hints.h 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_items.cc 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_items.h 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_node_base.cc 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_node_base.h 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_nodes.cc 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_nodes.h 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_partitions.cc 
-contain PARSE_TREE.ss mysql-server-mysql-8.0.2/sql/parse_tree_partitions.h 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_column_attrs.h 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_helpers.cc 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_helpers.h 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_hints.cc 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_hints.h 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_items.cc 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_items.h 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_node_base.cc 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_node_base.h 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_nodes.cc 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_nodes.h 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_partitions.cc 
+contain PARSER.ss mysql-server-mysql-8.0.2/sql/parse_tree_partitions.h 
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/parser_service.cc 
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/rpl_trx_boundary_parser.cc 
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/rpl_trx_boundary_parser.h 
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/sql_parse.cc 
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/sql_parse.h 
+
+contain SECURITY.ss mysql-server-mysql-8.0.2/sql/auth
 
 contain LIBRARY.ss mysql-server-mysql-8.0.2/mysys_ssl
 contain LIBRARY.ss mysql-server-mysql-8.0.2/mysys
@@ -132,11 +132,6 @@ contain MY_TAP.ss mysql-server-mysql-8.0.2/unittest/examples
 
 contain PLUGIN.ss mysql-server-mysql-8.0.2/rapid
 contain PLUGIN.ss mysql-server-mysql-8.0.2/plugin
-
-contain PREPROCESSOR.ss mysql-server-mysql-8.0.2/sql/handler.cc
-contain PREPROCESSOR.ss mysql-server-mysql-8.0.2/sql/handler.h
-contain PREPROCESSOR.ss mysql-server-mysql-8.0.2/sql/error_handler.cc
-contain PREPROCESSOR.ss mysql-server-mysql-8.0.2/sql/error_handler.h
 
 contain mysql-server-mysql-8.0.2/rapid mysql-server-mysql-8.0.2/libservices
 contain mysql-server-mysql-8.0.2/storage/innobase mysql-server-mysql-8.0.2/cmake
@@ -409,6 +404,7 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_info_factory.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_truncate.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/xa_aux.h
 
+contain OTHER.ss mysql-server-mysql-8.0.2/sql/handler.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_conflict_trans.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/check_stack.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ha_ndbcluster.cc
@@ -500,7 +496,6 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/filesort_utils.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_component.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/bounded_queue.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_dist_priv_util.h
-contain OTHER.ss mysql-server-mysql-8.0.2/sql/auth
 
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_crypt.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/opt_hints.h
@@ -707,6 +702,7 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/sp.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_table_guard.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_gtid_specification.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/transaction.h
+contain OTHER.ss mysql-server-mysql-8.0.2/sql/error_handler.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_show_status.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_prepare.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/filesort.h
@@ -740,6 +736,7 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/rules_table_service.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_component.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/thr_malloc.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_transaction_write_set_ctx.cc
+contain OTHER.ss mysql-server-mysql-8.0.2/sql/handler.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_info_table.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_import.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sys_vars_resource_mgr.cc
@@ -757,6 +754,7 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_info_handler.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_schema_object.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/mysqld.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_import.cc
+contain OTHER.ss mysql-server-mysql-8.0.2/sql/error_handler.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_derived.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_do.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_hset.h
