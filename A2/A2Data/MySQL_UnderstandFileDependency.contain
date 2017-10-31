@@ -1,6 +1,7 @@
 contain mysql-server-mysql-8.0.2 CLIENT_INTERFACE.ss
 contain mysql-server-mysql-8.0.2 STORAGE_ENGINE.ss
 contain mysql-server-mysql-8.0.2 LIBRARY.ss
+contain mysql-server-mysql-8.0.2/sql PREPROCESSOR.ss
 
 contain STORAGE_ENGINE.ss mysql-server-mysql-8.0.2/storage/federated
 contain STORAGE_ENGINE.ss mysql-server-mysql-8.0.2/storage/temptable
@@ -131,6 +132,11 @@ contain MY_TAP.ss mysql-server-mysql-8.0.2/unittest/examples
 
 contain PLUGIN.ss mysql-server-mysql-8.0.2/rapid
 contain PLUGIN.ss mysql-server-mysql-8.0.2/plugin
+
+contain PREPROCESSOR.ss mysql-server-mysql-8.0.2/sql/handler.cc
+contain PREPROCESSOR.ss mysql-server-mysql-8.0.2/sql/handler.h
+contain PREPROCESSOR.ss mysql-server-mysql-8.0.2/sql/error_handler.cc
+contain PREPROCESSOR.ss mysql-server-mysql-8.0.2/sql/error_handler.h
 
 contain mysql-server-mysql-8.0.2/rapid mysql-server-mysql-8.0.2/libservices
 contain mysql-server-mysql-8.0.2/storage/innobase mysql-server-mysql-8.0.2/cmake
@@ -403,7 +409,6 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_info_factory.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_truncate.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/xa_aux.h
 
-contain OTHER.ss mysql-server-mysql-8.0.2/sql/handler.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_conflict_trans.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/check_stack.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ha_ndbcluster.cc
@@ -702,7 +707,6 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/sp.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_table_guard.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_gtid_specification.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/transaction.h
-contain OTHER.ss mysql-server-mysql-8.0.2/sql/error_handler.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_show_status.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_prepare.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/filesort.h
@@ -736,7 +740,6 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/rules_table_service.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_component.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/thr_malloc.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_transaction_write_set_ctx.cc
-contain OTHER.ss mysql-server-mysql-8.0.2/sql/handler.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_info_table.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_import.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sys_vars_resource_mgr.cc
@@ -754,7 +757,6 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/rpl_info_handler.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_schema_object.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/mysqld.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_import.cc
-contain OTHER.ss mysql-server-mysql-8.0.2/sql/error_handler.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_derived.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_do.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_hset.h
